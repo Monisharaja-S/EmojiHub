@@ -1,0 +1,95 @@
+/* Custom styles */
+body{
+ background-image: url(https://c8.alamy.com/zooms/9/9583605e8fca42a48529b0c3814c98ec/2ac909f.jpg);
+ background-size: cover;
+}
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+  background-color: goldenrod;
+}
+
+.navbar-toggler {
+  border: none;
+ 
+}
+
+.navbar-toggler:focus {
+  outline: none;
+}
+
+/* Align search form to the right */
+#searchForm {
+  margin-left: auto;
+}
+
+
+/* Sidebar */
+.sidebar {
+  position: fixed;
+  top: 55px; /* Adjust based on header height */
+  bottom: 0;
+  left: 0;
+  width: 230px;
+  background-color:gold;
+  padding: 20px;
+  overflow-y: auto;
+  border-right: 1px solid #ddd;
+}
+
+.sidebar h2 {
+  margin-bottom: 20px;
+}
+
+/* Main content area */
+.content {
+  margin-left: 220px; /* Adjust based on sidebar width */
+  padding: 20px;
+
+}
+
+/* Emoji display */
+.emoji-card {
+  margin-bottom: 20px;
+  background-color:lightgoldenrodyellow;
+  height: 350px;
+  
+}
+
+.emoji-card .card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.emoji-card .emoji-symbol {
+  font-size: 7rem;
+
+}
+
+.emoji-card .btn-copy {
+  margin-top: 10px;
+}
+
+/* Categories */
+#categoryList {
+  padding-left: 0;
+}
+
+#categoryList li {
+  margin-bottom: 10px;
+  cursor: pointer;
+  color: brown;
+}
+
+#categoryList li:hover {
+  text-decoration: underline;
+}
+
+/* Search form */
+#searchInput {
+  margin-right: 10px;
+}
